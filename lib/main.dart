@@ -9,11 +9,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Water Tracker', // Название вашего приложения
+      title: 'Water Tracker',
       theme: ThemeData(
-        primarySwatch: Colors.blue, // Основной цвет приложения
+        primarySwatch: Colors.blue,
       ),
-      home: InputScreen(), // Начальный экран вашего приложения
+      home: InputScreen(),
     );
   }
 }
